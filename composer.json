@@ -1,0 +1,20 @@
+{
+   "name": "charlsdev/api",
+   "description": "API creada con PHP y PostgreSQL",
+   "license": "MIT",
+   "autoload": {
+      "psr-4": {
+         "Charlsdev\\Api\\": "src/"
+      }
+   },
+   "authors": [
+      {
+         "name": "CharlesVP15",
+         "email": "youquince@gmail.com"
+      }
+   ],
+   "require": {
+      "bramus/router": "^1.6",
+      "vlucas/phpdotenv": "^5.4"
+   }
+}

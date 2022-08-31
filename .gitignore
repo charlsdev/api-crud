@@ -1,0 +1,4 @@
+node_modules
+vendor
+.env
+php-error.log

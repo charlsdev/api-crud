@@ -1,0 +1,2 @@
+Las rutas a usar se deben de llamar como se llama el archivo
+Para no tener ese problema es preferible que cada archivo se llame como la clase
