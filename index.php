@@ -15,6 +15,8 @@
 
    require __DIR__ . '\vendor\autoload.php';
 
+   echo __DIR__ . '\vendor\autoload.php';
+
    // Ejecucion de las variables de entorno
    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
    $dotenv->load();
