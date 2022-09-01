@@ -1,7 +1,7 @@
 <?php
    namespace Charlsdev\Api\helpers;
 
-   class Model
+   class ModelDB
    {
       private Database $db;
 

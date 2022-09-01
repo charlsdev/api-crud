@@ -3,7 +3,7 @@
 
    use PDOException;
 
-   class Encription
+   class Security
    {
       static function getHashedPassword($password){
          return password_hash($password, \PASSWORD_BCRYPT, ['cost' => 10]);
@@ -13,6 +13,8 @@
          try{
             return password_verify($passText, $passEncrypt);
          }catch(PDOException $e){
+            \error_log($e);
+            
             return NULL;
          }
       }

@@ -1,13 +1,11 @@
 <?php
    namespace Charlsdev\Api\helpers;
-
-   use Charlsdev\Api\config\Constants;
+   
    use PDO;
    use PDOException;
 
    class Database
    {
-
       private $tipdb;
       private $host;
       private $db;
@@ -16,12 +14,12 @@
       private $port;
 
       public function __construct(){
-         $this->tipdb = Constants::$TPDB;
-         $this->host = Constants::$HOST;
-         $this->db = Constants::$DB;
-         $this->user = Constants::$USER;
-         $this->password = Constants::$PASSWORD;
-         $this->port = Constants::$PORT;
+         $this->tipdb = $_ENV['TPDB'];
+         $this->host = $_ENV['HOST'];
+         $this->db = $_ENV['DB'];
+         $this->user = $_ENV['USER'];
+         $this->password = $_ENV['PASSWORD'];
+         $this->port = $_ENV['PORT'];
       }
 
       function connect(){
