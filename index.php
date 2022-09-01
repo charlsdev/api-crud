@@ -13,7 +13,7 @@
    
    error_log("Inicio de la APP - CharlsDEV!");
 
-   require __DIR__ . '/vendor/autoload.php';
+   require '/vendor/autoload.php';
 
    // Ejecucion de las variables de entorno
    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
