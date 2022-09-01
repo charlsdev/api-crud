@@ -19,4 +19,4 @@
    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
    $dotenv->load();
 
-   require 'src/routes/index.routes.php';
+   require __DIR__ . '/src/routes/index.routes.php';
