@@ -15,6 +15,7 @@
    ],
    "require": {
       "bramus/router": "^1.6",
-      "vlucas/phpdotenv": "^5.4"
+      "vlucas/phpdotenv": "^5.4",
+      "php": "^8.4.0"
    }
 }
