@@ -14,11 +14,11 @@
    error_log("Inicio de la APP - CharlsDEV!");
 
    // require __DIR__ . '/vendor/autoload.php';
-   include('vendor/autoload.php');
+   include('./vendor/autoload.php');
 
    // Ejecucion de las variables de entorno
    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
    $dotenv->load();
 
    // require __DIR__ . '/src/routes/index.routes.php';
-   include('src/routes/index.routes.php');
+   include('./src/routes/index.routes.php');
